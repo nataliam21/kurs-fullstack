@@ -1,0 +1,10 @@
+let brand = "Ford";
+console.log(marka);
+let model = "Mustang";
+console.log(modelode);
+let productionDate = 1970;
+console.log(productionDate);
+let maxSpeed = 250;
+console.log(max);
+let countryOfProduction = "USA";
+console.log(countryOfProduction);
