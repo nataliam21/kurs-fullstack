@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="new_user.php" method="post">
+      <p>
+        <label for="user-name">Nazwa użytkownika: </label>
+        <input type="text" name="user-name" id="user-name" />
+      </p>
+      <p>
+        <label for="email"> Email: </label>
+        <input type="email" name="email" />
+      </p>
+      <p>
+        <label for="born-data"> Data urodzenia: </label>
+        <input type="datetime-local" name="datetime-local" id="born-date" />
+      </p>
+      <div>
+        Typ użytkownika:
+        <p>
+          <input type="radio" name="user-type" id="company" />
+          <label for="company">Firma</label>
+        </p>
+        <p>
+          <input type="radio" name="user-type" id="natural-person />
+          <label for="natural-person">osoba fizyczn</label>
+        </p>
+        <p>
+          <input type="radio" name="user-type" id="foundation" />
+          <label for="foundation">Fundacja</label>
+        </p>
+      </div>
+      <p>
+        <label for="website-color">kolor motywu</label>
+        <input type="color" name="website-color" id="website-color" />
+      </p>
+      <p>
+        <input type="checkbox" name="tag" id="computers" />
+        <label for="computers">Komputery</label>
+      </p>
+      <div>
+        <p>
+          <input type="checkbox" name="tag" id="programming" />
+          <label for="programming">Programowanie</label>
+        </p>
+        <p>
+          <input type="checkbox" name="tag" id="cinema" />
+          <label for="cinema">Kino</label>
+        </p>
+      </div>
+      <p>
+        <label for="category">Ukubiona kategoria</label>
+
+        <select name="category" id="category">
+          <option value="category1">Kategoria 1</option>
+          <option value="category2">Kategoria 2</option>
+          <option value="category3">Kategoria 3</option>
+        </select>
+      </p>
+    </form>
+    <p>
+      <button type="submit">Wyślij</button>
+      <button type="reset">Resetuj</button>
+    </p>
+  </body>
+</html>

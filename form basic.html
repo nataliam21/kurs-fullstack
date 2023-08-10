@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="action.php" method="post" autocomplete="off">
+      <p>
+        <label for="username">Nazwa użytkownika:</label>
+        <input id="username" name=" username" value="Adam" />
+      </p>
+      <p>
+        <label for="password">hasło:</label>
+        <input
+          id="password"
+          type="password"
+          name=" password"
+          placeholder="wpisz hasło"
+        />
+      </p>
+      <p>
+        <label for="country">Kraj:</label>
+        <input type="text" name="country" minlength="3" maxlength="10" />
+      </p>
+      <button type="submit">wyślij</button>
+      <button type="reset">Resetuj</button>
+    </form>
+    <!-- dane formularza maja być przesłane w nagłówkach, get- wszytskie dane są przsłane jako część url co nie jest bezpieczne, bo dane są widoczne w url, dlatego korzsta się z post -->
+  </body>
+</html>
