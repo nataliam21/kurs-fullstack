@@ -1,0 +1,15 @@
+body {
+  background: black;
+}
+#first {
+  font-weight: bold;
+}
+
+.content {
+  font-size: 14px;
+  color: yellow;
+}
+
+#first.content {
+  text-decoration: underline;
+}
